@@ -31,4 +31,3 @@
              (not (or (and p30 p10) (and p31 p11) (and p32 p12))) 
              (not (or (and p30 p20) (and p31 p21) (and p32 p22)))))
 (check-sat)
-(get-model)
