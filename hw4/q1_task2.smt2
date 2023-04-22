@@ -9,5 +9,9 @@
     )
 )
 
-(assert (exists ((r Real) (s Real)) (phi r s)))
+(declare-const r Real)
+(declare-const s Real)
+
+(assert (phi r s))
 (check-sat)
+(get-model)
